@@ -1,0 +1,16 @@
+PROGRAM m ( ) ;
+    VAR 
+        x : INTEGER ;
+        y : REAL ;
+
+    BEGIN
+        x := 5 ;
+        y := 0 ;
+        IF x > 0 THEN
+            BEGIN
+                x := y + 7 ;
+                y := y + 1 ;
+            END
+        ELSE
+           y := x + 2 ;
+    END .
